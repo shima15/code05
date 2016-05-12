@@ -20,9 +20,8 @@ function isMultipleOf5(value){
 }
 
 function divideBy2(value){
-    if(value % 2 != 0){
-        var a = value + 1
+    if(value % 2 == 1){
+        value = value + 1
     }
-    var result = value / 2;
-    return reslut;
+    return value / 2;
 }

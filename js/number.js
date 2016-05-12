@@ -1,5 +1,6 @@
 function isEvenNumber(number){
-    result = number % == 0;
+    var a = number %;
+    var result = a == 0;
     return result;
 }
 

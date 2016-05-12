@@ -1,6 +1,6 @@
 function isMajority(age){
     var result;
-    result = age >= 20;
+    result = age == 20;
     return result;
 }
 
